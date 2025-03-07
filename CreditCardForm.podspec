@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "CreditCardForm/Classes/*.swift", "CreditCardForm/*.{h,m}"
   s.resource_bundles = {
-    'CreditCardForm' => ['CreditCardForm/Images.xcassets']
+    'CreditCardForm' => ['CreditCardForm/Images.xcassets', 'PrivacyInfo.xcprivacy']
   }
   s.frameworks = 'UIKit'
   s.swift_versions = "4.2"
